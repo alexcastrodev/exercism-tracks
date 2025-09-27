@@ -1,0 +1,32 @@
+# Exercism config
+.exercism/
+.exercism.json
+
+# Compiled object files
+*.o
+
+# Compiled binaries
+a.out
+*.out
+*.exe
+
+# Build directories
+/build/
+bin/
+obj/
+
+# Editor/IDE files
+*.swp
+*~
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# Backup files
+*.bak
+*.tmp
+
+# macOS dSYM debug folders
+*.dSYM/

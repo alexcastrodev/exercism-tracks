@@ -1,0 +1,9 @@
+{
+    "name": "Dev Container",
+    "dockerComposeFile": ["docker-compose.devcontainer.yml"],
+    "postCreateCommand": "ls -la",
+    "remoteUser": "root",
+    "shutdownAction": "stopCompose",
+    "workspaceFolder": "/workspace",
+    "service": "backend"
+}
