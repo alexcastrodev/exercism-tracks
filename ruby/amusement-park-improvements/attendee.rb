@@ -22,4 +22,12 @@ class Attendee
   def has_pass?
     !@pass_id.nil?
   end
+
+  def fits_ride?(height)
+    @height >= height
+  end
+
+  def allowed_to_ride?(height)
+    has_pass? && fits_ride?(height)
+  end
 end
