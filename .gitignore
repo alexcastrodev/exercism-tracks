@@ -1,3 +1,11 @@
 **/.exercism
 **/.gradle
 **/build
+**/*.class
+**/*.kotlin_module
+**/out
+**/target
+**/vendor
+*.iml
+.idea/
+.DS_Store
